@@ -15,6 +15,6 @@ def create_app():
 
         # Import Dash application
         from .dashboards import apps
-        app = apps.Add_Reivew_Summary_App(app)
+        app = apps.Add_Review_Dash(app)
 
         return app
