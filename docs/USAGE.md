@@ -7,3 +7,6 @@
 - Activate Anaconda environment (otherwise prompt).
 - ```pip install -r requirements.txt```
 - ```start.sh```
+
+
+Note: A *Review* Dash App will be used as an example.

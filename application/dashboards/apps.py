@@ -1,15 +1,10 @@
 """Create a Dash app within a Flask app."""
 from pathlib import Path
 from dash import Dash, callback_context
-import dash_table
 import dash_html_components as html
-import dash_core_components as dcc
-from dash.dependencies import Input, Output, State
-import pandas as pd
-import plotly_express as pe
 from .layout import html_layout
-import logging, sys
 from .control import Service
+import logging, sys
 
 
 # logging configuration
